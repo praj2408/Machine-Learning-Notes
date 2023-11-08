@@ -118,3 +118,33 @@ Recall, also known as sensitivity or the true positive rate, is a crucial classi
 8. **Not Suitable for Applications with Varying Importance of Positives**: In applications where the importance or value of correctly identifying positive instances varies, recall alone may not be sufficient. You might need to consider other metrics that account for this variation.
 
 In summary, recall is a crucial metric for assessing a model's ability to capture relevant positive instances, but it should be used in conjunction with other metrics and domain-specific knowledge to provide a comprehensive evaluation of the model's performance, especially in situations where the trade-off with precision, class imbalance, threshold sensitivity, or varying consequences of errors are relevant considerations.
+
+
+
+## F1 Score
+
+The F1 score is a classification metric that combines both precision and recall into a single value, providing a balance between these two metrics. It's particularly useful when you need to consider both false positives and false negatives and when there is an uneven class distribution or a need to find a balance between precision and recall. The F1 score is often used in situations where optimizing for high precision or high recall individually may not be the best strategy.
+
+The formula for the F1 score is:
+
+\[ F1\text{ Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
+
+Here's a more detailed explanation of the components and characteristics of the F1 score:
+
+1. **Precision**: Precision measures the accuracy of positive predictions made by a model. It answers the question, "Of all the instances that the model predicted as positive, how many were correct?" Precision quantifies the proportion of true positives among all positive predictions.
+
+2. **Recall**: Recall, also known as sensitivity, measures the ability of the model to correctly identify all relevant instances of the positive class. It answers the question, "Of all the actual positive instances, how many did the model correctly predict?" Recall quantifies the proportion of true positives among all actual positives.
+
+3. **Harmonic Mean**: The F1 score is the harmonic mean of precision and recall. The harmonic mean gives more weight to lower values. As a result, the F1 score is less sensitive to outliers and extreme values. It is particularly suitable for cases where one of the component metrics is much lower than the other.
+
+4. **Balancing Precision and Recall**: The F1 score seeks to balance the trade-off between precision and recall. This balance is crucial in situations where there are consequences to both false positives and false negatives, and you don't want to overly favor one at the expense of the other. For example, in medical diagnoses, it's essential to strike a balance between correctly identifying positive cases (recall) and minimizing false alarms (precision).
+
+5. **Range**: The F1 score ranges from 0 to 1, with 1 indicating perfect precision and recall, and 0 indicating the worst possible performance. An F1 score of 1 means that the model has both perfect precision and recall, while a score of 0.5 suggests that the model has achieved an equal balance between the two.
+
+6. **Choosing the Right Threshold**: The F1 score helps you choose an appropriate classification threshold for your model. Adjusting the threshold can impact both precision and recall, and you can use the F1 score to find the threshold that best aligns with your specific requirements.
+
+7. **Application in Imbalanced Datasets**: In imbalanced datasets, where one class significantly outnumbers the other, the F1 score can be a more informative metric than accuracy. It considers both the ability to capture the minority class (recall) and the accuracy of positive predictions (precision).
+
+8. **Geometric Interpretation**: The F1 score can be geometrically interpreted as the point where the precision-recall curve reaches its peak. This point represents a balance between precision and recall.
+
+In summary, the F1 score is a valuable metric for evaluating classification models, especially when there is a need to balance precision and recall. It provides a single score that summarizes the model's performance, making it easier to compare and assess different models or model configurations.
