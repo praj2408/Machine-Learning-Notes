@@ -22,3 +22,5 @@ The R-squared (R2) and adjusted R-squared (adjusted R2) are both statistical mea
 - As you add more variables to a regression model, the R2 may artificially increase even if the new variables do not contribute meaningfully to explaining the dependent variable. Adjusted R2 helps mitigate this issue by providing a more conservative estimate of goodness of fit.
 
 In summary, use R2 to gauge the overall goodness of fit of your regression model, but be cautious when you have many predictors. In such cases, adjusted R2 is a better choice as it adjusts for the complexity of the model and provides a more reliable indication of how well the model generalizes to new data while avoiding overfitting.
+
+
