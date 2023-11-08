@@ -97,4 +97,24 @@
 9. **Dependent on Class Definitions**: Precision can be influenced by how the positive class is defined. Modifying the class definition can impact the precision score.
 
 
-## 
+## Restrictions of Recall
+
+Recall, also known as sensitivity or the true positive rate, is a crucial classification metric that measures the ability of a model to correctly identify all relevant instances of a positive class. While recall is essential for many applications, it has certain restrictions and limitations that should be considered:
+
+1. **Trade-off with Precision**: Recall and precision have an inverse relationship. Increasing recall often comes at the cost of decreased precision and vice versa. This trade-off can make it challenging to find the right balance between precision and recall for a specific application. In some situations, it may be more critical to optimize one over the other, depending on the consequences of false positives and false negatives.
+
+2. **May Not Reveal the Full Picture**: Recall provides information about the model's ability to capture true positive instances, but it doesn't take into account false positives, true negatives, and false negatives. Therefore, it doesn't provide a complete picture of a model's overall performance. To get a more comprehensive view, you should consider other metrics like precision, F1 score, or the Matthews Correlation Coefficient (MCC).
+
+3. **Insensitive to True Negatives**: Recall is primarily concerned with positive instances. It doesn't consider the accuracy of predictions for the negative class (true negatives). In some applications, both true positives and true negatives are equally important, and a metric that accounts for both, like accuracy, may be more informative.
+
+4. **Threshold Sensitivity**: Recall is sensitive to the choice of classification threshold. Adjusting the threshold can significantly impact recall. In applications where you need to balance precision and recall, finding the optimal threshold can be crucial.
+
+5. **Inappropriate for Imbalanced Datasets**: In imbalanced datasets where the negative class significantly outnumbers the positive class, achieving high recall may be relatively easy by predicting everything as the negative class. In such cases, recall may not be a meaningful metric, and other measures like the area under the precision-recall curve or the F1 score may be more informative.
+
+6. **Doesn't Consider Consequences of Errors**: Recall treats false negatives and false positives equally. Depending on the application, these errors may have different consequences. Recall may not provide insight into the specific costs or benefits associated with these errors.
+
+7. **Doesn't Address Model Calibration**: Recall doesn't directly measure the calibration of a model, which is the alignment of predicted probabilities with actual probabilities. A well-calibrated model provides meaningful probabilities that can be used for decision-making.
+
+8. **Not Suitable for Applications with Varying Importance of Positives**: In applications where the importance or value of correctly identifying positive instances varies, recall alone may not be sufficient. You might need to consider other metrics that account for this variation.
+
+In summary, recall is a crucial metric for assessing a model's ability to capture relevant positive instances, but it should be used in conjunction with other metrics and domain-specific knowledge to provide a comprehensive evaluation of the model's performance, especially in situations where the trade-off with precision, class imbalance, threshold sensitivity, or varying consequences of errors are relevant considerations.
