@@ -75,3 +75,26 @@
 
 10. **Doesn't Account for Costs and Benefits**: The confusion matrix doesn't consider the specific costs and benefits associated with different types of classification errors. In some applications, misclassifying certain instances may have more significant consequences than others.
 
+
+## Restrictions of Precision
+
+1. **Doesn't Consider All Relevant Information**: Precision solely focuses on the true positives and false positives and doesn't take into account true negatives and false negatives. This means it provides a limited view of the overall performance of the model, particularly in situations where true negatives or false negatives are of significance.
+
+2. **Sensitive to Class Imbalance**: Precision can be affected by class imbalance. In imbalanced datasets where one class significantly outnumbers the other, achieving high precision may be relatively easy by predicting the majority class as negative for most instances. However, this may not be a meaningful or useful model in practice.
+
+3. **May Sacrifice Recall**: In some cases, optimizing for high precision may lead to lower recall. Precision and recall have an inverse relationship; as you increase precision, you often decrease recall and vice versa. Finding the right balance between precision and recall is important, as excessively high precision at the expense of recall may result in missed relevant instances.
+
+4. **Threshold Sensitivity**: Precision is sensitive to the choice of classification threshold. Adjusting the threshold can significantly impact the precision of a model's predictions. Therefore, precision should be considered in conjunction with other metrics, such as the F1 score, when determining the optimal threshold for a specific application.
+
+5. **May Not Indicate Model's Overall Performance**: High precision doesn't necessarily imply that the model is performing well overall. It's possible to achieve high precision with a model that has poor overall predictive ability if it is overly conservative in making positive predictions.
+
+6. **Ignores True Negatives**: Precision doesn't provide any information about true negatives, which are correctly predicted negative instances. In some applications, both positive and negative predictions are equally important, and a comprehensive evaluation metric, like the F1 score or the Matthews Correlation Coefficient (MCC), might be more appropriate.
+
+7. **Doesn't Consider Consequences of Errors**: Precision treats false positives and false negatives equally. Depending on the application, these errors may have different consequences. Precision may not provide insight into the specific costs or benefits associated with these errors.
+
+8. **Not Suitable for Applications with Varying Importance of Positives**: In applications where the importance or value of correctly identifying positive instances varies, precision alone may not be sufficient. You might need to consider other metrics that account for this variation.
+
+9. **Dependent on Class Definitions**: Precision can be influenced by how the positive class is defined. Modifying the class definition can impact the precision score.
+
+
+## 
