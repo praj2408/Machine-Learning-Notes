@@ -39,4 +39,4 @@ Principal Component Analysis (PCA) is a fundamental technique in data analysis a
    - Information loss: Reducing dimensions may result in some loss of information.
    - Interpretability: Principal components may not have clear physical meanings in some cases.
 
-In summary, PCA is a valuable technique for dimensionality reduction and data exploration. It helps simplify complex data while retaining essential information, making it easier to analyze, visualize, and understand large datasets.
+In summary, PCA is a valuable technique for dimensionality reduction and data exploration. It helps simplify complex data while retaining essential information, making it easier to analyze, visualize, and understand large datasets. 
