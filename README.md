@@ -1,7 +1,6 @@
 # Machine-Learning-Practical-Notes
 
-![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/Concept%20Drift.jpg)
-![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/Data%20Drift.jpg)
+
 ![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/MSE%20MAE.jpg)
 ![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/RMSE.jpg)
 ![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/R2%20Score.jpg)
