@@ -1,10 +1,5 @@
 # Machine-Learning-Practical-Notes
 
-
-![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/MSE%20MAE.jpg)
-![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/RMSE.jpg)
-![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/R2%20Score.jpg)
-![](https://github.com/praj2408/Machine-Learning-Practical-Notes/blob/main/Notes/Adjusted%20R2%20score.jpg)
 ## R2 Score and Adjusted R2 Score
 The R-squared (R2) and adjusted R-squared (adjusted R2) are both statistical measures commonly used in regression analysis to assess the goodness of fit of a model. Here's when to use each of them:
 
