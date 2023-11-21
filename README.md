@@ -1,5 +1,19 @@
 # Machine-Learning-Practical-Notes
 
+## Regression Algorithms
+  1. Linear Regression
+  2. Ridge and Lasso
+  3. Decision Tree Regressor
+  4. Random Forest Regressor
+  5. Elastic Net
+
+## Classification Algorithms
+  1. Logistic Regression
+  2. Naive Bayes
+  3. K-nearest neighbors
+  4. Support vector machines
+  5. Random forest
+
 ## R2 Score and Adjusted R2 Score
 The R-squared (R2) and adjusted R-squared (adjusted R2) are both statistical measures commonly used in regression analysis to assess the goodness of fit of a model. Here's when to use each of them:
 
