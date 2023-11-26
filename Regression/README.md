@@ -1,12 +1,3 @@
-![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression/Ridge%20Regularization%2001.jpg)
-![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression/Ridge%20Regularization%2002.jpg)
-
-
-
-
-
-
-
 # Overfitting
 Overfitting in a regression problem occurs when a model learns the training data too well, capturing noise and fluctuations that do not represent the underlying patterns in the data. To reduce overfitting in a regression problem, you can employ various techniques:
 
@@ -46,6 +37,10 @@ Overfitting in a regression problem occurs when a model learns the training data
 
 12. **Batch Normalization:**
     - For neural networks, batch normalization can help stabilize and accelerate the training process, reducing overfitting.
+
+![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression/Ridge%20Regularization%2001.jpg)
+![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression/Ridge%20Regularization%2002.jpg)
+
 
 # Ridge 
 Certainly! Ridge regularization, also known as L2 regularization, is a technique used in linear regression to prevent overfitting by adding a penalty term to the cost function. The goal is to encourage the model to learn simpler patterns and avoid overly complex solutions with large coefficient values.
@@ -89,7 +84,10 @@ Certainly! Ridge regularization, also known as L2 regularization, is a technique
 ### Summary:
 Ridge regularization is a valuable tool in preventing overfitting in linear regression models. By introducing a penalty for large coefficients, it encourages the model to find a balance between fitting the training data well and avoiding unnecessary complexity. The choice of the regularization parameter (\( \lambda \)) is crucial in achieving the right level of regularization for a specific problem.
 
-Certainly! Lasso regression, also known as L1 regularization, is a linear regression technique that incorporates a penalty term in the regression equation. This penalty term is based on the absolute values of the coefficients, and it helps to prevent overfitting and perform feature selection.
+
+![]()
+
+Lasso regression, also known as L1 regularization, is a linear regression technique that incorporates a penalty term in the regression equation. This penalty term is based on the absolute values of the coefficients, and it helps to prevent overfitting and perform feature selection.
 
 Here's a breakdown of the key concepts and characteristics of Lasso regression:
 
