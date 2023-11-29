@@ -12,7 +12,8 @@
   2. Naive Bayes
   3. K-nearest neighbors
   4. Support vector machines
-  5. Random forest
+  5. Decision Tree
+  6. Random forest
 
 ## R2 Score and Adjusted R2 Score
 The R-squared (R2) and adjusted R-squared (adjusted R2) are both statistical measures commonly used in regression analysis to assess the goodness of fit of a model. Here's when to use each of them:
