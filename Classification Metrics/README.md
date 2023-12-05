@@ -1,3 +1,6 @@
+![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Classification%20Metrics/Accuracy%20and%20Confusion%20Metrics.jpg)
+![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Classification%20Metrics/Precision%20and%20Recall.jpg)
+
 ## Classification Metrics
 
 1. **Accuracy**: Accuracy is one of the most straightforward classification metrics. It measures the ratio of correct predictions to the total number of predictions made by the model. 
