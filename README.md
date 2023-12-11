@@ -7,7 +7,6 @@
   4. Random Forest Regressor
   5. Elastic Net
 
-
 ## Classification Algorithms
   1. Logistic Regression
   2. Naive Bayes
