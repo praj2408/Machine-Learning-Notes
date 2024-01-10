@@ -2,10 +2,10 @@
 
 ## Regression Algorithms
   1. Linear Regression
-  2. Ridge and Lasso
+  2. Ridge, Lasso and Elastic Net
   3. Decision Tree Regressor
   4. Random Forest Regressor
-  5. Elastic Net
+  5. Support vector regressor
 
 ## Classification Algorithms
   1. Logistic Regression
