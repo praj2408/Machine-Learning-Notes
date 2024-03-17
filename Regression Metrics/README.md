@@ -44,3 +44,26 @@ To address the curse of dimensionality, practitioners often employ techniques su
 ![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression%20Metrics/RMSE.jpg)
 ![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression%20Metrics/R2%20Score.jpg)
 ![](https://github.com/praj2408/Machine-Learning-Hand-Written-Notes/blob/main/Regression%20Metrics/Adjusted%20R2%20score.jpg)
+
+
+
+# L1 and L2 Regularization
+**Introduction to Regularization:**
+Regularization is a technique used in machine learning and data science to prevent overfitting, which occurs when a model learns the training data too well, including noise and random fluctuations. Overfitting can lead to poor generalization to unseen data. Regularization helps to control the complexity of the model by adding a penalty term to the loss function, which discourages large coefficients and thus reduces overfitting.
+
+**L1 Regularization (Lasso Regression):**
+L1 regularization, also known as Lasso regression, adds a penalty term to the loss function proportional to the absolute values of the coefficients. Mathematically, the L1 regularization term is the sum of the absolute values of the coefficients multiplied by a regularization parameter (lambda or alpha). This penalty encourages sparsity in the model, meaning it tends to push the coefficients of less important features to zero, effectively eliminating them from the model.
+
+In simpler terms, L1 regularization encourages the model to select only the most important features while setting the coefficients of less important features to zero. This can be very useful in situations where you have a large number of features and you want to identify the most relevant ones for making predictions.
+
+**L2 Regularization (Ridge Regression):**
+L2 regularization, also known as Ridge regression, adds a penalty term to the loss function proportional to the square of the coefficients. Mathematically, the L2 regularization term is the sum of the squared values of the coefficients multiplied by a regularization parameter (lambda or alpha). Unlike L1 regularization, L2 regularization doesn't force the coefficients to be exactly zero, but it shrinks them towards zero. This tends to produce models with more evenly distributed coefficients.
+
+In simpler terms, L2 regularization penalizes large coefficients but doesn't force them to be exactly zero. Instead, it reduces their impact on the model's predictions, effectively making the model less sensitive to the input data. This can help improve the model's generalization performance by reducing overfitting.
+
+**Comparison:**
+- L1 regularization tends to produce sparse models with some coefficients being exactly zero, which can help with feature selection.
+- L2 regularization tends to produce models with small, but non-zero coefficients, effectively reducing the impact of less important features without completely eliminating them.
+
+**Conclusion:**
+Both L1 and L2 regularization techniques are powerful tools for combating overfitting in machine learning models. Understanding when to use each technique depends on the specific problem you're trying to solve and the characteristics of your data. By incorporating these techniques into your modeling process, you can build more robust and generalizable machine learning models.
