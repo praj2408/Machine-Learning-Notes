@@ -53,6 +53,9 @@ website: https://scikit-learn.org/stable/modules/clustering.html#
 
 
 # DB-SCAN Clustering
+[![DB-scan clustering](http://img.youtube.com/vi/RDZUdRSDOok/0.jpg)](http://www.youtube.com/watch?v=RDZUdRSDOok)
+
+
 ![](https://github.com/praj2408/Machine-Learning-Notes/blob/main/Unsupervised%20Algorithms/DBSCAN.jpg)
 
 
